@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'ACARS UI Documentation', // Title for your website.
+  title: 'ACARS Aggregator Documentation', // Title for your website.
   tagline: 'ACARS Feed Aggregation',
   url: 'https://app.airframes.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
@@ -38,8 +38,8 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
+    {doc: 'intro', label: 'Docs'},
+    {doc: 'api', label: 'API'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
   ],
